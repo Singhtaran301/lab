@@ -19,7 +19,7 @@ jobs:
         python-version: 3.9
 
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: pip install markdown-toc
 
     - name: Generate Table of Contents
       run: python app.py
@@ -29,5 +29,5 @@ jobs:
         git config user.name "SinghTaran301"
         git config user.email "taran4486@gmail.com"
         git add .
-        git commit -m "Update TOC [skip ci]"
+        git commit -m "Update TOC [skip ci]" || echo "No changes to commit"
         git push
