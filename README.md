@@ -3,6 +3,15 @@
 ## Table of Contents
 
 - [My Documentation](#my-documentation)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Usage](#usage)
+
+
+## Table of Contents
+
+- [My Documentation](#my-documentation)
   - [Introduction](#introduction)
   - [Features](#features)
   - [Usage](#usage)
